@@ -1,8 +1,10 @@
-package edu.upenn.cis.cis455.crawler.enums;
+package edu.upenn.cis.cis455.enums;
 
 public enum Dbname {
-    catalogName("catLog");
-
+    catalogName("catLog"),
+    userdbName("userdb"),
+    docdbName("docdb"),
+    urldbName("urldb");
 
     private String name;
     Dbname(String name){
